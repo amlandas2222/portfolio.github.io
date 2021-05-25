@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+.container{
+    padding: 23px;
+    margin: auto;
+    width: 80%;
+    height: 90vh;
+}
+    .container{
+    background: url('contact.png');
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.container,h3,p{
+    text-align: center;
+    font-family: sans-serif;
+    color: blanchedalmond;
+}
+input,textarea{
+    width: 80%;
+    margin: 5px 5px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 6px;
+    display: block;
+    margin: auto;
+    padding: 10px 10px;
+    margin: 8px 90px; 
+    border-radius: 10px;
+}
+button{
+     padding: 2px 2px; 
+    margin: 10px 5px;
+    background-color: rgb(153, 91, 47);
+    cursor: pointer;
+     color: whitesmoke; 
+    height: 30px;
+    width: 50px;
+    border-radius:10px ;
+    border: 2px solid hsl(0, 100%, 98%);
+    box-shadow: 2px 2px  8px black; 
+
+}
+
+form{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.submit-msg{
+    color: green;
+    font-size: 20px;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+</style>
+<body>
+    
+    <div class="container">
+        <h1>Contact me:</h1>
+        
+        <form action="index.php" method="post">
+            
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input type="text" name="age" id="age" placeholder="Enter Your age">
+            <input type="text" name="gender" id="gender" placeholder="Enter Your gender">
+            <input type="email" name="email" id="email" placeholder="Enter Your email">
+            <input type="phone" name="phone" id="phone" placeholder="Enter Your phone">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter Your information here "></textarea>
+            <button class="btn">Submit</button>
+            <!-- <button class="btn">Reset</button> -->
+          </form>
+        </div>
+</body>
+</html>

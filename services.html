@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&family=Pattaya&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/affe4f52e1.js" crossorigin="anonymous"></script>
+    
+
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+    integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+    crossorigin="anonymous"
+  ></script>
+    <title>Services</title>
+</head>
+<style>
+    
+    .services{
+    z-index: 2;
+    position: absolute;
+    height: 110vh;
+    width: 100%;
+    background: rgb(70, 64, 64) url("black.jpg");
+    background-blend-mode: darken;
+}
+.services-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 35px;
+    color: crimson;
+}
+.service-pic{
+    position: absolute;
+    left: 100px;
+}
+.service-pic img{
+    height: 300px;
+    width: 300px;
+    border-radius:20% ;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 157px;
+    margin: auto;
+}
+.box1-icon img{
+    padding: 2px 2px;
+    border-radius:50% ;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 180px;
+    margin: auto;
+}
+.box1-para{
+    flex-direction: column;
+}
+.box2-para{
+    flex-direction: column;
+}
+.box3-para{
+    flex-direction: column;
+}
+.box1-icon img{ 
+    height: 100px;
+    width: 100px;
+}
+
+
+.main-text{
+font-size: 25px;
+font-family: 'Oswald', sans-serif;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out;
+    color: crimson;
+}
+.para{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out;
+    color: rgb(255, 255, 255);
+}
+</style>
+<body>
+   
+    
+
+
+
+    
+                            <!-- services section  -->
+                            <div class="services" id="services">
+                                <h1 class="services-header">SERVICES: </h1>
+                                
+                                <div class="box1">
+                                    
+                                    <div class="box1-para">
+                                        <p class="text main-text"> <b>WEB DEVELOPMENT   </b>
+                                            <i class="fas fa-code"></i>
+                                            
+                                        </p>
+                                        <p class="text para">If you want to make a responsive wibsite for your business purposes , then you can 
+                                            contact with me.I'll try to deliver the best to you as soon as possible
+                                        </p>
+                                    </div>
+                                    <div class="box1-icon">
+                                        <img src="service1.jpg" alt="">
+                                    </div>
+                                </div>
+                                
+                                <div class="service-pic">
+                                    <img src="service.jpg" alt="service">
+                                </div>
+                                <div class="box2">
+                                    <div class="box2-para">
+                                        <p class="text main-text"><b>E-COMMERCE  </b>
+                                            <i class="fas fa-cart-plus"></i>
+                                            
+                                            
+                                        </p>
+                                    <p class="text para">If you want to make a E-commerce website for your business purposes , then you can 
+                                        contact with me.I'll try to deliver the best to you as soon as possible
+                                    </p>
+                                </div>
+                            <div class="box1-icon">
+                                <img src="service2.jpg" alt="">
+                            </div>
+                        </div>
+                
+                
+                        <div class="box3">
+                            <div class="box3-para">
+                
+                                <p class="text main-text"><b>WEB DESIGN</b>
+                                    <i class="fas fa-laptop"></i>
+                
+                                
+                                </p>
+                                    <p class="text para">If you want to design a website for your business purposes , then you can 
+                                        contact with me.I'll try to deliver the best to you as soon as possible
+                                    </p>
+                                </div>
+                            <div class="box1-icon">
+                                <img src="services3.jpg" alt="">
+                            </div>
+                        </div>
+                
+</body>
+</html>

@@ -1,0 +1,416 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background:rgb(177, 104, 104) url("bg3.png");
+    /* background-color: black; */
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.intro-text h1{
+    color: aliceblue;
+}
+.aboutMe p{
+    color: black;
+    font-size: 100px;
+    
+}
+.aboutMe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.fadeout{
+    opacity: 0;
+ pointer-events: none;
+}
+.fadein{
+    opacity: 1;
+    pointer-events: all;
+}
+.aboutMe p{
+    opacity: 0;
+}
+.nav-ul img{
+    height: 100px;
+    width: 200px;
+}
+.nav-ul{
+    display: flex;
+    position: sticky;
+}
+.nav-li{
+    display: flex;
+    align-items: center;
+    margin: 14px 34px;
+    padding: 11px 2px;
+    
+}
+.nav-li a{
+    text-decoration: none;
+    color: crimson;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-family: 'Pattaya', sans-serif;
+}
+.nav-li a:hover{
+    color: honeydew;
+}
+
+
+
+/* about section */
+
+.about img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid crimson;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left:50rem;
+    margin-top:19px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding: 138px 101px;
+    margin: 60px 23px;
+}
+
+.intro h1{
+    color: crimson;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    
+
+}
+.typing{
+    position: relative;
+    margin-left: 10px;
+    color: white;
+}
+.typing::after{
+    content: " ";
+    position: absolute;
+    height: 39px;
+    width: 1px;
+    border-right: 5px solid crimson;
+    animation: blink 1s infinite ease;
+   
+
+}
+@keyframes blink{
+    0%{
+    opacity: 0;
+    }
+    100%{
+    opacity: 1;
+    }
+}
+.services{
+    z-index: 2;
+    position: absolute;
+    height: 110vh;
+    width: 100%;
+    background: rgb(70, 64, 64) url("black.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+/* services section  */
+
+.services-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 35px;
+    color: crimson;
+}
+.service-pic{
+    position: absolute;
+    left: 100px;
+}
+.service-pic img{
+    height: 300px;
+    width: 300px;
+    border-radius:20% ;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    /* height: 15px; */
+    margin: auto;
+}
+.box1-icon img{
+    padding: 2px 2px;
+    border-radius:50% ;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 180px;
+    margin: auto;
+
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+}
+.box1-para{
+    flex-direction: column;
+}
+.box2-para{
+    flex-direction: column;
+}
+.box3-para{
+    flex-direction: column;
+}
+.box1-icon img{ 
+    height: 100px;
+    width: 100px;
+}
+
+
+.main-text{
+font-size: 25px;
+font-family: 'Oswald', sans-serif;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out;
+    color: crimson;
+}
+.para{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out;
+    color: white;
+
+
+}
+/* skill section  */
+.skill{
+    background:  url('skillBg.jpg');
+    background-blend-mode: darken;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.skill h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Pattaya', sans-serif;
+    font-size: 35px;
+}
+.skill-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-para{
+   padding-left:20px ;
+    width: 400px;
+    padding: 110px 97px;
+    margin: 6px 33px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    transform: translateY(20px);
+    transition: 3s all ease-in-out;
+
+}
+  .skill-para h3{
+    text-decoration: underline;
+    color: crimson;
+    font-size: 21px;
+}
+.skill-para p{
+    color: black;
+    font-size:16px ;
+}
+.info{
+    margin: 1px 1px;
+    padding:1px 1px;
+    margin-bottom:5px ;
+    font-size: 15px;
+    font-family: 'Pattaya', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+.info span{
+    font-weight: 500;
+    
+}
+ .line{
+    height: 3px; 
+    width: 100%; 
+    background: lightgray;
+    position: relative;
+}
+.line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    background: crimson;
+}
+.html::before{
+     content: "";
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    background: crimson;
+
+}
+
+.css::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 80%;
+   top: 0;
+   left: 0;
+   background: crimson;
+
+}
+ 
+.javascript::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 60%;
+   top: 0;
+   left: 0;
+   background: crimson;
+
+}
+ 
+.php::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 50%;
+   top: 0;
+   left: 0;
+   background: crimson;
+
+}
+ 
+.mysql::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 60%;
+   top: 0;
+   left: 0;
+   background: crimson;
+
+}
+ 
+  
+
+.html{
+    padding: 2px 2px;
+}
+.percent{
+    padding: 2px 2px;
+}
+.text-appear{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.skill-pic img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+}
+
+/* contact form section */
+
+.container{
+    padding: 23px;
+    margin: auto;
+    width: 80%;
+    height: 90vh;
+}
+
+
+.container,h3,p{
+    text-align: center;
+    font-family: sans-serif;
+    color: blanchedalmond;
+}
+input,textarea{
+    width: 80%;
+    margin: 5px 5px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 6px;
+    display: block;
+    margin: auto;
+    padding: 10px 10px;
+    margin: 8px 90px; 
+    border-radius: 10px;
+}
+button{
+     padding: 2px 2px; 
+    margin: 10px 5px;
+    background-color: rgb(153, 91, 47);
+    cursor: pointer;
+     color: whitesmoke; 
+    height: 30px;
+    width: 50px;
+    border-radius:10px ;
+    border: 2px solid hsl(0, 100%, 98%);
+    box-shadow: 2px 2px  8px black; 
+
+}
+
+form{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.submit-msg{
+    color: green;
+    font-size: 20px;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.container{
+    background: url('contact.png');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

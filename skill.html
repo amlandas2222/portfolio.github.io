@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .skill{
+    background-color:rgb(161, 139, 139);
+    height: 100vh;
+    width: 100%;
+}
+.skill h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Pattaya', sans-serif;
+    font-size: 35px;
+}
+.skill-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-para{
+   padding-left:20px ;
+    width: 400px;
+    padding: 110px 97px;
+    margin: 6px 33px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    transform: translateY(20px);
+    transition: 3s all ease-in-out;
+
+}
+ h3{
+    text-decoration: underline;
+}
+.info{
+    margin: 1px 1px;
+    padding:1px 1px;
+    margin-bottom:5px ;
+    font-size: 15px;
+    font-family: 'Pattaya', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+.info span{
+    font-weight: 500;
+    
+}
+ .line{
+    height: 3px; 
+    width: 100%; 
+    background: lightgray;
+    position: relative;
+}
+/* .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    background: crimson;
+} */
+.html::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    background: crimson;
+
+}
+
+.css::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 80%;
+   top: 0;
+   left: 0;
+   background: crimson;
+
+}
+ 
+.javascript::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 60%;
+   top: 0;
+   left: 0;
+   background: crimson;
+
+}
+ 
+.php::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 50%;
+   top: 0;
+   left: 0;
+   background: crimson;
+
+}
+ 
+.mysql::before{
+    content: "";
+   position: absolute;
+   height: 100%;
+   width: 60%;
+   top: 0;
+   left: 0;
+   background: crimson;
+
+}
+ 
+  
+
+.html{
+    padding: 2px 2px;
+}
+.percent{
+    padding: 2px 2px;
+}
+.text-appear{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.skill-pic img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+}
+
+</style>
+<body>
+  
+    
+    <div class="skill">
+        <h1> My skills</h1>
+        <div class="skill-section">
+            <div class="skill-pic">
+
+                <img src="skill.jpg" alt="">
+            </div>
+
+            <div class="text skill-para">
+                <h3><b> My skills & Experince </b></h3>
+                <br>
+                <p > Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minus veritatis minima amet alias quo, sequi quibusdam fuga expedita animi, eveniet ipsa!</p>
+                </div>
+                
+                <div class="mySkill">
+                    <div class="allSkill">
+                        <div class="info"> 
+                            <span >HTML</span>
+                            <span >90%</span>
+                        </div>
+                        <div class="line html"></div>
+                        <div class="info"> 
+                            <span>CSS</span>
+                            <span>80%</span>
+                            
+                        </div>
+                        <div class="line css"></div>
+                        <div class="info"> 
+                            <span>JAVASCRIPT</span>
+                            <span>60%</span>
+                            
+                        </div>
+                        <div class="line javascript"></div>
+                        <div class="info"> 
+                            <span>PHP</span>
+                            <span>50%</span>
+                            
+                        </div>
+                        <div class="line php"></div>
+                        <div class="info"> 
+                            <span>MYSQL</span>
+                            <span>60%</span>  
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                    
+                </div>
+                
+                
+                
+            </div>
+        </div>  
+</body>
+</html>
